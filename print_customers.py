@@ -27,6 +27,6 @@ for record in csv_file:
 
     input()
 
-
+    ## make sure to know how to use git.igonore for submitting the homework assignment
 
 
