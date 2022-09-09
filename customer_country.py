@@ -27,10 +27,8 @@ for record in csv_file:
 
     outfile.write(full_name + "," + country + "\n")
 
+
 outfile.close()
 
-
-    #print(format(record[1], "10"), format(record[2], "12"), "\t", record[4])
-
-print("")
 print("Total number of customers:", i)
+    #print(format(record[1], "10"), format(record[2], "12"), "\t", record[4])
