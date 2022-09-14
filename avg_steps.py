@@ -7,7 +7,7 @@ outfile = open("avg_steps.csv", "w")
 csv_file = csv.reader(infile, delimiter=",")
 
 
-next(csv_file)
+
 
 months = ["January", "February", "March", "April", "May", "June", "July", "August",
 "September", "October", "November", "December"]
@@ -16,8 +16,11 @@ i = 0
 counter = 0
 month  = 1
 
-outfile.write("Month, Average Steps\n")
 
+next(csv_file)
+
+
+outfile.write("Month, Average Steps\n")
 
 for record in csv_file:
     print(i)
